@@ -22,7 +22,7 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="row row-content align-items-center">
+            <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <a href="#"><img src="img/logo.png" class="img-fluid" /></a>
                 </div>
@@ -106,52 +106,52 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--Reservation Card-->
-    <div class="row row-content align-items-center">
-        <div class="col col-sm-6 mx-auto">
-            <div class="card">
-                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                <div class="card-body">
-                    <form id="reserveForm">
-                        <div class="form-group row">
-                            <label for="numCampers" class="col col-form-label col-sm-6">Number of Campers</label>
-                            <!-- Dropdown menu -->
-                            <div class="col">
-                                <select name="numCampers" id="numCampers" class="form-control">
-                                    <option selected> Select...</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
+        <!--Reservation Card-->
+        <div class="row row-content">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form id="reserveForm">
+                            <div class="form-group row">
+                                <label for="numCampers" class="col col-form-label col-sm-6">Number of Campers</label>
+                                <!-- Dropdown menu -->
+                                <div class="col">
+                                    <select name="numCampers" id="numCampers" class="form-control">
+                                        <option selected> Select...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Date -->
-                        <div class="form-group row">
-                            <label for="date" class="col-sm-6 col-form-label">Date</label>
-                            <div class="col col-sm-6">
-                                <input type="date" name="date" id="date" class="form-control"
-                                    placeholder="Date"></input>
+                            <!-- Date -->
+                            <div class="form-group row">
+                                <label for="date" class="col-sm-6 col-form-label">Date</label>
+                                <div class="col">
+                                    <input type="date" name="date" id="date" class="form-control"
+                                        placeholder="Date"></input>
+                                </div>
                             </div>
-                        </div>
-                        <!--Reserve Button-->
-                        <div class="row">
-                            <div class="col">
-                                <a href="#" class="btn btn-primary" type="submit">Reserve</a>
+                            <!--Reserve Button-->
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
